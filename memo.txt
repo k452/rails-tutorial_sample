@@ -1,0 +1,12 @@
+コンテナの起動
+　docker-compose build
+  docker-compose up
+
+  その後別ターミナルで
+  docker-compose run web rails db:create
+
+コンテナの停止
+　docker-compose down
+
+起動したコンテナへの入り方
+　docker exec -it ID bash
